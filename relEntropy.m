@@ -1,4 +1,4 @@
-function [Xopt,uBound,lBound,outerCount] = newRelativeEntropy(m,n,A,eps,maxIter,lineSearchEps)
+function [Xopt,uBound,lBound,outerCount] = relEntropy(m,n,A,eps,maxIter,lineSearchEps)
 %
 % newRelativeEntropy 
 %--------------------
@@ -9,7 +9,7 @@ function [Xopt,uBound,lBound,outerCount] = newRelativeEntropy(m,n,A,eps,maxIter,
 %    partial transposes of matrices. 
 %    (https://github.com/nathanieljohnston/QETLAB/blob/master/PartialTranspose.m)
 %
-% Standard usage:  [Xopt,relEntr]=newRelativeEntropy(m,n,A)
+% Standard usage:  [Xopt,relEntr]=relEntropy(m,n,A)
 % Variables:
 %    m,n       - dimensions of the subsystems
 %    A         - density matrix whose REE we are trying to compute
@@ -17,7 +17,7 @@ function [Xopt,uBound,lBound,outerCount] = newRelativeEntropy(m,n,A,eps,maxIter,
 %    relEnt    - output upper bound of relative entropy of entanglement
 %
 % Optional inputs with defaults:
-% newRelativeEntropy(m,n,A,eps,maxIter,lineSearchEps)
+% relEntropy(m,n,A,eps,maxIter,lineSearchEps)
 %    eps           - precision such that |uBound-lBound|<eps (default: eps = 1e-5)
 %    maxIter       - max number of iterations (default: maxIter = 200)
 %    lineSearchEps - precision of intermediate line search (default: lineSearchEps = 1e-10;)
