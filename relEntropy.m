@@ -22,7 +22,7 @@ function [Xopt,uBound,lBound,outerCount] = relEntropy(m,n,A,eps,maxIter,lineSear
 %    maxIter       - max number of iterations (default: maxIter = 200)
 %    lineSearchEps - precision of intermediate line search (default: lineSearchEps = 1e-10;)
 %
-% We define a function trAlogA To compute tr(A*logm(A))to accept
+% We define a function traceAlogmA to compute trace(A*logm(A))to accept
 % rank-defficnent matrices.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
