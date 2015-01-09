@@ -1,6 +1,6 @@
 function [Xopt,uBound,lBound,outerCount] = relEntropy(m,n,A,eps,maxIter,lineSearchEps)
 %
-% newRelativeEntropy 
+% relEntropy 
 %--------------------
 % Approximates the relative entropy of entanglement (REE) of a density 
 % matrix of an mxn bipartite system (relative to PPT states). 
