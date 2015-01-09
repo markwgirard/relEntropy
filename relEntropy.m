@@ -172,7 +172,7 @@ while ~probSolved_flag && outerCount<maxIter %&& ~status
     cvx_end
     
     % After SDP, use line search to find better optimal.
-    Ystart=P{bestN+1};
+    Ystart=X{bestN+1};
     Yend=Y;
     % set the search ray direction
     dY=Yend-Ystart;
