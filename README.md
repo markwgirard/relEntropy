@@ -18,6 +18,10 @@ where
 * PartialTranspose routine from QETLAB (http://www.qetlab.com) (see: (https://github.com/nathanieljohnston/QETLAB/blob/master/PartialTranspose.m))
 
 ## References
+
+M.W. Girard, Y. Zinchenko, S. Friedland, and G. Gour. *Erratum: Numerical estimation of the relative entropy of entanglement*.
+[Phys. Rev. A 91, 029901] (https://journals.aps.org/pra/abstract/10.1103/PhysRevA.91.029901) (2015).
+
 Y. Zinchenko, S. Friedland, and G. Gour. *Numerical estimation of the relative entropy of entanglement*.
 [Phys. Rev. A 82, 052336](http://dx.doi.org/10.1103/PhysRevA.82.052336) (2010). 
 
